@@ -1,0 +1,43 @@
+#titlebar,
+#sidebar-header,
+#sidebar-splitter,
+#identity-icon-box,
+#tracking-protection-icon-container,
+#remote-control-box,
+#notification-popup-box,
+.identity-box-button,
+.urlbar-page-action,
+.toolbarbutton-1,
+.chromeclass-toolbar-additional,
+.urlbar-icon,
+.chromeUI {
+	display: none !important;
+}
+
+.urlbar-input-box {
+	text-align: center !important;
+}
+
+#PanelUI-menu-button, #unified-extensions-button {
+	top: 0 !important;
+	right: 0 !important;
+	display: inherit !important;
+	position: absolute !important;
+	z-index: -1 !important;
+}
+
+#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] {
+	position: relative !important;
+	min-width: unset !important;
+	max-width: 240px !important;
+	width: 30px !important;
+	z-index: 1 !important;
+}
+
+#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] #sidebar {
+	min-width: 30px !important;
+}
+ 
+#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"]:hover #sidebar{
+	min-width: 240px !important;
+}
